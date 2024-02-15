@@ -7,4 +7,3 @@ This repository presents our experimentation revolving around the MELD dataset u
 Our experiments showed us:
 - the second model works significantly better and to our surprise emotion detection does not require the whole context as it will only introduce noise to the model (which wouldn't be the case if we use a bigger model for example Llama 2.)
 - Although tiny bert is a significantly smaller model it's really stable or resistant to changing hyperparameters as changing the learning rate for normal Bert introduced a lot of instability. Surprisingly it wasn't the case for the frozen bert models as they were quite resistant as well.
-- 
